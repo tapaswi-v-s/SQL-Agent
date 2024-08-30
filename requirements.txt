@@ -1,0 +1,4 @@
+sqlite
+langchain
+langchain-openai
+streamlit
