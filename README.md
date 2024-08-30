@@ -35,15 +35,15 @@
 7. **Execution & Response**: Executes the query, handles any updates or confirmations from the user, and returns the result.
 
 ### Module Breakdown
-- **`./db`**: Manages database connection.
-- **`./tools`**: Contains tool definitions used by the agent.
-- **`./utils`**: Utility functions supporting various operations.
-- **`./runnables`**: Assistants that process different stages in the agent.
-- **`./graph`**: Defines the workflow and state management.
-- **`./agent`**: The core agent logic.
+- **`src/db`**: Manages database connection.
+- **`src/tools`**: Contains tool definitions used by the agent.
+- **`src/utils`**: Utility functions supporting various operations.
+- **`src/runnables`**: Assistants that process different stages in the agent.
+- **`src/graph`**: Defines the workflow and state management.
+- **`src/agent`**: The core agent logic.
 - **`sql-agent.ipynb`**: Jupyter Notebook version for in-depth exploration.
 - **`Chinook.db`**: Sample SQLite database for interaction.
-- **`main.py`**: Entry point for running the agent.
+- **`src/main.py`**: Entry point for running the agent.
 
 ## Installation and Setup
 
@@ -59,9 +59,9 @@ OPENAI_API_KEY=<your_openai_api_key>
 DB_PATH=./Chinook.db
 ```
 ### Usage 
-- **Running the Agent**: Execute the agent by running `main.py`:
+- **Running the Agent**: Execute the agent by running `src/main.py`:
 ```bash
-python main.py
+python src/main.py
 ```
 **Note**: The agent currently operates in CLI mode. A graphical chat interface is coming soon.
 
