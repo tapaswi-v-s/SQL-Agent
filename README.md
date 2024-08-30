@@ -1,5 +1,7 @@
 # SQL Agent
 
+<img src="thumbnail.jpg" width="350" height="200"/>
+
 ## Project Overview
 
 ### Introduction
