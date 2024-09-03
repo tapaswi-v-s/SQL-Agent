@@ -1,11 +1,15 @@
 # SQL Agent
 
-<img src="thumbnail.jpg" width="350" height="200"/>
+<a href="https://youtu.be/-tjWsomDUDE">
+    <img src="thumbnail.jpg" width="350" height="200"/>
+</a>
 
 ## Project Overview
 
 ### Introduction
 **SQL Agent** is an advanced chatbot powered by LLM with function calling, designed to convert natural language queries into SQL statements and execute them seamlessly. The agent intelligently identifies whether a user's query pertains to reading from the database (DQL) or involves data modification (DML, DDL, or DCL). Based on this classification, it invokes the necessary tools. For DML, DDL, or DCL queries, the agent pauses execution to seek user confirmation before proceeding, ensuring safe and intentional data modifications. Additionally, the agent validates the generated SQL query for correctness and offers rectification if needed. By automating the interaction with the database, SQL Agent eliminates the need for users to manually write SQL queries.
+
+🖥️ **Check out the video walkthrough [here](https://youtu.be/-tjWsomDUDE)**<br>
 
 ### Tech Stack
 - **Python**
